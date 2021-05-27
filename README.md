@@ -1,17 +1,19 @@
 ## Prerequisites
 
 ### Download libraries
-- `npm i react-router-dom react-toastify`
+- `sudo npm i react-router-dom react-toastify`
 
-### Remember to include imports to all React Apps:
-import React from 'react'<br>
-import ReactDOM from 'react-dom'
+### Install [nodemon](https://www.npmjs.com/package/nodemon)
+- `sudo npm install -g nodemon`
+- run `nodemon`, `nodemon server` etc.
 
 ## Getting Started
 
-### Initialize a new application:
+### 1. Initialize a new application:
 - `npx create-react-app client`
 
-### Start React server:
-1. `cd client && npm start`
-2. http://localhost:3000/
+### 2. Start React server:
+- `cd client && npm start`
+
+### 3. Go to browser
+- [Matcha Home](http://localhost:3000/)
